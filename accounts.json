@@ -1,0 +1,44 @@
+[
+    {
+        "account_number": 1000,
+        "holder_name": "igor",
+        "balance": 940.0,
+        "account_type": "Checking",
+        "transactions": [
+            "deposit: +440"
+        ],
+        "overdraw_limit": 500.0,
+        "withdraw_fee": 2.5
+    },
+    {
+        "account_number": 1001,
+        "holder_name": "bertie",
+        "balance": 800.0,
+        "account_type": "Savings",
+        "transactions": [],
+        "interest_rate": 0.5,
+        "withdraw_this_month": 0,
+        "withdraw_fee": 5.0
+    },
+    {
+        "account_number": 1002,
+        "holder_name": "maria",
+        "balance": 600.0,
+        "account_type": "Checking",
+        "transactions": [],
+        "overdraw_limit": 500.0,
+        "withdraw_fee": 2.5
+    },
+    {
+        "account_number": 1003,
+        "holder_name": "ana",
+        "balance": 663.3,
+        "account_type": "Savings",
+        "transactions": [
+            "Interest Applied: +3.30\n"
+        ],
+        "interest_rate": 0.5,
+        "withdraw_this_month": 0,
+        "withdraw_fee": 5.0
+    }
+]
