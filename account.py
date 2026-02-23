@@ -56,7 +56,7 @@ class Account:
         else:
             for transaction in self._transactions:
                 print(f"{transaction}")
-        print("-\n" * 30)
+        print("-" * 30)
 
     # serialization helpers
     def to_dict(self):
